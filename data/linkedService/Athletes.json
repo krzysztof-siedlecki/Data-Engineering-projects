@@ -1,0 +1,12 @@
+{
+	"name": "Athletes",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/krzysztof-siedlecki/Data-Engineering-projects/main/data/Athletes.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
